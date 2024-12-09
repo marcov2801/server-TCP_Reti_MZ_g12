@@ -1,4 +1,4 @@
-/* Project -> Project options -> Parameters -> Linker: -lws2_32 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -64,7 +64,7 @@ int main() {
         return 1;
     }
     
-    // 1. Il server è avviato sulla porta 53477 e resta sempre in ascolto
+    // 1. Il server Ã¨ avviato sulla porta 53477 e resta sempre in ascolto
     printf("Server TCP in ascolto sulla porta %d...\n", PORT);
 	while(true) { 
 	    // 4. Il server accetta la connessione del client
